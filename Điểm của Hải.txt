@@ -1,0 +1,23 @@
+2026-01-19 08:43:30.357 [ip6-dynamic-adsl.viettel.vn] [main] INFO  MATSimRunner - Log file redirected to: logs/app.log
+2026-01-19 08:43:30.359 [ip6-dynamic-adsl.viettel.vn] [main] INFO  MATSimRunner - Log signature: ip6-dynamic-adsl.viettel.vn
+2026-01-19 08:43:30.431 [ip6-dynamic-adsl.viettel.vn] [main] INFO  RunMatsim - Running MATSim core module
+2026-01-19 08:43:34.803 [ip6-dynamic-adsl.viettel.vn] [main] INFO  RunMatsim - MATSim scenario loaded in 4.370511755s
+2026-01-19 08:43:34.828 [ip6-dynamic-adsl.viettel.vn] [main] INFO  RunMatsim - MATSim metadata loaded in 24.956345ms
+2026-01-19 08:44:15.047 [ip6-dynamic-adsl.viettel.vn] [main] INFO  RunMatsim - MATSim run completed in 40.088720774s
+2026-01-19 08:44:15.049 [ip6-dynamic-adsl.viettel.vn] [main] INFO  RunMatsim - Total execution time: 44.484188874s
+2026-01-19 08:44:15.064 [ip6-dynamic-adsl.viettel.vn] [main] INFO  MATSimRunner - Run time: 44.704569581s
+2026-01-19 08:44:15.314 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Processing MATSim event data...
+2026-01-19 08:44:15.314 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculating service coverage...
+2026-01-19 08:44:15.314 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculated service coverage: 40.0536%
+2026-01-19 08:44:15.314 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculating ridership...
+2026-01-19 08:44:15.318 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculated ridership: 11.2210%
+2026-01-19 08:44:15.318 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculating on-time performance...
+2026-01-19 08:44:15.319 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculated on-time performance: 69.1393%
+2026-01-19 08:44:15.319 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculating transit-auto travel time ratio...
+2026-01-19 08:44:15.325 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculated travel time ratio: 0.0854
+2026-01-19 08:44:15.325 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculating travel time...
+2026-01-19 08:44:15.327 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculated travel time score component: 0.0313
+2026-01-19 08:44:15.327 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculating productivity...
+2026-01-19 08:44:15.335 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - Calculated productivity score component: 0.7921
+2026-01-19 08:44:15.335 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - MATSim data processing & Score calculation completed in 21.496285ms
+2026-01-19 08:44:15.335 [ip6-dynamic-adsl.viettel.vn] [main] INFO  BusNetScoreCalculator - System-wide score: 0.3478
