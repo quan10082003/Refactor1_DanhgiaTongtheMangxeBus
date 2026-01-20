@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transitSchedule SYSTEM "http://www.matsim.org/files/dtd/transitSchedule_v1.dtd">
+<transitSchedule>
+ <transitStops>
+  <stopFacility id="stop_1" x="463000.0" y="5740000.0" linkRefId="1"/>
+  <stopFacility id="stop_5" x="466000.0" y="5740000.0" linkRefId="5"/>
+  <stopFacility id="stop_9" x="469000.0" y="5740000.0" linkRefId="9"/>
+  <stopFacility id="stop_13" x="472000.0" y="5740000.0" linkRefId="13"/>
+  <stopFacility id="stop_17" x="475000.0" y="5740000.0" linkRefId="17"/>
+  <stopFacility id="stop_18" x="472000.0" y="5740000.0" linkRefId="18"/>
+  <stopFacility id="stop_14" x="469000.0" y="5740000.0" linkRefId="14"/>
+  <stopFacility id="stop_10" x="466000.0" y="5740000.0" linkRefId="10"/>
+  <stopFacility id="stop_6" x="463000.0" y="5740000.0" linkRefId="6"/>
+  <stopFacility id="stop_2" x="460000.0" y="5740000.0" linkRefId="2"/>
+  <stopFacility id="stop_45" x="463000.0" y="5746000.0" linkRefId="45"/>
+  <stopFacility id="stop_49" x="466000.0" y="5746000.0" linkRefId="49"/>
+  <stopFacility id="stop_53" x="469000.0" y="5746000.0" linkRefId="53"/>
+  <stopFacility id="stop_57" x="472000.0" y="5746000.0" linkRefId="57"/>
+  <stopFacility id="stop_61" x="475000.0" y="5746000.0" linkRefId="61"/>
+  <stopFacility id="stop_62" x="472000.0" y="5746000.0" linkRefId="62"/>
+  <stopFacility id="stop_58" x="469000.0" y="5746000.0" linkRefId="58"/>
+  <stopFacility id="stop_54" x="466000.0" y="5746000.0" linkRefId="54"/>
+  <stopFacility id="stop_50" x="463000.0" y="5746000.0" linkRefId="50"/>
+  <stopFacility id="stop_46" x="460000.0" y="5746000.0" linkRefId="46"/>
+  <stopFacility id="stop_89" x="463000.0" y="5752000.0" linkRefId="89"/>
+  <stopFacility id="stop_91" x="466000.0" y="5752000.0" linkRefId="91"/>
+  <stopFacility id="stop_93" x="469000.0" y="5752000.0" linkRefId="93"/>
+  <stopFacility id="stop_95" x="472000.0" y="5752000.0" linkRefId="95"/>
+  <stopFacility id="stop_97" x="475000.0" y="5752000.0" linkRefId="97"/>
+  <stopFacility id="stop_98" x="472000.0" y="5752000.0" linkRefId="98"/>
+  <stopFacility id="stop_96" x="469000.0" y="5752000.0" linkRefId="96"/>
+  <stopFacility id="stop_94" x="466000.0" y="5752000.0" linkRefId="94"/>
+  <stopFacility id="stop_92" x="463000.0" y="5752000.0" linkRefId="92"/>
+  <stopFacility id="stop_90" x="460000.0" y="5752000.0" linkRefId="90"/>
+  <stopFacility id="stop_7" x="463000.0" y="5743000.0" linkRefId="7"/>
+  <stopFacility id="stop_29" x="463000.0" y="5746000.0" linkRefId="29"/>
+  <stopFacility id="stop_51" x="463000.0" y="5749000.0" linkRefId="51"/>
+  <stopFacility id="stop_73" x="463000.0" y="5752000.0" linkRefId="73"/>
+  <stopFacility id="stop_74" x="463000.0" y="5749000.0" linkRefId="74"/>
+  <stopFacility id="stop_52" x="463000.0" y="5746000.0" linkRefId="52"/>
+  <stopFacility id="stop_30" x="463000.0" y="5743000.0" linkRefId="30"/>
+  <stopFacility id="stop_8" x="463000.0" y="5740000.0" linkRefId="8"/>
+  <stopFacility id="stop_19" x="472000.0" y="5743000.0" linkRefId="19"/>
+  <stopFacility id="stop_41" x="472000.0" y="5746000.0" linkRefId="41"/>
+  <stopFacility id="stop_63" x="472000.0" y="5749000.0" linkRefId="63"/>
+  <stopFacility id="stop_85" x="472000.0" y="5752000.0" linkRefId="85"/>
+  <stopFacility id="stop_86" x="472000.0" y="5749000.0" linkRefId="86"/>
+  <stopFacility id="stop_64" x="472000.0" y="5746000.0" linkRefId="64"/>
+  <stopFacility id="stop_42" x="472000.0" y="5743000.0" linkRefId="42"/>
+  <stopFacility id="stop_20" x="472000.0" y="5740000.0" linkRefId="20"/>
+ </transitStops>
+ <transitLine id="Bus_Line_1">
+  <transitRoute id="dir_fwd">
+   <transportMode>bus</transportMode>
+   <routeProfile>
+    <stop refId="stop_1" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_5" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_9" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_13" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_17" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="1"/>
+    <link refId="5"/>
+    <link refId="9"/>
+    <link refId="13"/>
+    <link refId="17"/>
+   </route>
+   <departures>
+    <departure id="veh_Bus_Line_1_dir_fwd_0" departureTime="06:00:00" vehicleRefId="veh_Bus_Line_1_dir_fwd_0"/>
+    <departure id="veh_Bus_Line_1_dir_fwd_1" departureTime="07:00:00" vehicleRefId="veh_Bus_Line_1_dir_fwd_1"/>
+    <departure id="veh_Bus_Line_1_dir_fwd_2" departureTime="08:00:00" vehicleRefId="veh_Bus_Line_1_dir_fwd_2"/>
+    <departure id="veh_Bus_Line_1_dir_fwd_3" departureTime="09:00:00" vehicleRefId="veh_Bus_Line_1_dir_fwd_3"/>
+    <departure id="veh_Bus_Line_1_dir_fwd_4" departureTime="10:00:00" vehicleRefId="veh_Bus_Line_1_dir_fwd_4"/>
+   </departures>
+  </transitRoute>
+  <transitRoute id="dir_bwd">
+   <transportMode>bus</transportMode>
+   <routeProfile>
+    <stop refId="stop_18" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_14" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_10" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_6" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_2" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="18"/>
+    <link refId="14"/>
+    <link refId="10"/>
+    <link refId="6"/>
+    <link refId="2"/>
+   </route>
+   <departures>
+    <departure id="veh_Bus_Line_1_dir_bwd_0" departureTime="06:00:00" vehicleRefId="veh_Bus_Line_1_dir_bwd_0"/>
+    <departure id="veh_Bus_Line_1_dir_bwd_1" departureTime="07:00:00" vehicleRefId="veh_Bus_Line_1_dir_bwd_1"/>
+    <departure id="veh_Bus_Line_1_dir_bwd_2" departureTime="08:00:00" vehicleRefId="veh_Bus_Line_1_dir_bwd_2"/>
+    <departure id="veh_Bus_Line_1_dir_bwd_3" departureTime="09:00:00" vehicleRefId="veh_Bus_Line_1_dir_bwd_3"/>
+    <departure id="veh_Bus_Line_1_dir_bwd_4" departureTime="10:00:00" vehicleRefId="veh_Bus_Line_1_dir_bwd_4"/>
+   </departures>
+  </transitRoute>
+ </transitLine>
+ <transitLine id="Bus_Line_2">
+  <transitRoute id="dir_fwd">
+   <transportMode>bus</transportMode>
+   <routeProfile>
+    <stop refId="stop_45" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_49" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_53" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_57" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_61" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="45"/>
+    <link refId="49"/>
+    <link refId="53"/>
+    <link refId="57"/>
+    <link refId="61"/>
+   </route>
+   <departures>
+    <departure id="veh_Bus_Line_2_dir_fwd_0" departureTime="06:00:00" vehicleRefId="veh_Bus_Line_2_dir_fwd_0"/>
+    <departure id="veh_Bus_Line_2_dir_fwd_1" departureTime="07:00:00" vehicleRefId="veh_Bus_Line_2_dir_fwd_1"/>
+    <departure id="veh_Bus_Line_2_dir_fwd_2" departureTime="08:00:00" vehicleRefId="veh_Bus_Line_2_dir_fwd_2"/>
+    <departure id="veh_Bus_Line_2_dir_fwd_3" departureTime="09:00:00" vehicleRefId="veh_Bus_Line_2_dir_fwd_3"/>
+    <departure id="veh_Bus_Line_2_dir_fwd_4" departureTime="10:00:00" vehicleRefId="veh_Bus_Line_2_dir_fwd_4"/>
+   </departures>
+  </transitRoute>
+  <transitRoute id="dir_bwd">
+   <transportMode>bus</transportMode>
+   <routeProfile>
+    <stop refId="stop_62" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_58" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_54" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_50" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_46" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="62"/>
+    <link refId="58"/>
+    <link refId="54"/>
+    <link refId="50"/>
+    <link refId="46"/>
+   </route>
+   <departures>
+    <departure id="veh_Bus_Line_2_dir_bwd_0" departureTime="06:00:00" vehicleRefId="veh_Bus_Line_2_dir_bwd_0"/>
+    <departure id="veh_Bus_Line_2_dir_bwd_1" departureTime="07:00:00" vehicleRefId="veh_Bus_Line_2_dir_bwd_1"/>
+    <departure id="veh_Bus_Line_2_dir_bwd_2" departureTime="08:00:00" vehicleRefId="veh_Bus_Line_2_dir_bwd_2"/>
+    <departure id="veh_Bus_Line_2_dir_bwd_3" departureTime="09:00:00" vehicleRefId="veh_Bus_Line_2_dir_bwd_3"/>
+    <departure id="veh_Bus_Line_2_dir_bwd_4" departureTime="10:00:00" vehicleRefId="veh_Bus_Line_2_dir_bwd_4"/>
+   </departures>
+  </transitRoute>
+ </transitLine>
+ <transitLine id="Bus_Line_3">
+  <transitRoute id="dir_fwd">
+   <transportMode>bus</transportMode>
+   <routeProfile>
+    <stop refId="stop_89" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_91" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_93" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_95" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_97" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="89"/>
+    <link refId="91"/>
+    <link refId="93"/>
+    <link refId="95"/>
+    <link refId="97"/>
+   </route>
+   <departures>
+    <departure id="veh_Bus_Line_3_dir_fwd_0" departureTime="06:00:00" vehicleRefId="veh_Bus_Line_3_dir_fwd_0"/>
+    <departure id="veh_Bus_Line_3_dir_fwd_1" departureTime="07:00:00" vehicleRefId="veh_Bus_Line_3_dir_fwd_1"/>
+    <departure id="veh_Bus_Line_3_dir_fwd_2" departureTime="08:00:00" vehicleRefId="veh_Bus_Line_3_dir_fwd_2"/>
+    <departure id="veh_Bus_Line_3_dir_fwd_3" departureTime="09:00:00" vehicleRefId="veh_Bus_Line_3_dir_fwd_3"/>
+    <departure id="veh_Bus_Line_3_dir_fwd_4" departureTime="10:00:00" vehicleRefId="veh_Bus_Line_3_dir_fwd_4"/>
+   </departures>
+  </transitRoute>
+  <transitRoute id="dir_bwd">
+   <transportMode>bus</transportMode>
+   <routeProfile>
+    <stop refId="stop_98" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_96" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_94" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_92" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_90" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="98"/>
+    <link refId="96"/>
+    <link refId="94"/>
+    <link refId="92"/>
+    <link refId="90"/>
+   </route>
+   <departures>
+    <departure id="veh_Bus_Line_3_dir_bwd_0" departureTime="06:00:00" vehicleRefId="veh_Bus_Line_3_dir_bwd_0"/>
+    <departure id="veh_Bus_Line_3_dir_bwd_1" departureTime="07:00:00" vehicleRefId="veh_Bus_Line_3_dir_bwd_1"/>
+    <departure id="veh_Bus_Line_3_dir_bwd_2" departureTime="08:00:00" vehicleRefId="veh_Bus_Line_3_dir_bwd_2"/>
+    <departure id="veh_Bus_Line_3_dir_bwd_3" departureTime="09:00:00" vehicleRefId="veh_Bus_Line_3_dir_bwd_3"/>
+    <departure id="veh_Bus_Line_3_dir_bwd_4" departureTime="10:00:00" vehicleRefId="veh_Bus_Line_3_dir_bwd_4"/>
+   </departures>
+  </transitRoute>
+ </transitLine>
+ <transitLine id="Tram_Line_1">
+  <transitRoute id="dir_fwd">
+   <transportMode>tram</transportMode>
+   <routeProfile>
+    <stop refId="stop_7" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_29" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_51" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_73" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="7"/>
+    <link refId="29"/>
+    <link refId="51"/>
+    <link refId="73"/>
+   </route>
+   <departures>
+    <departure id="veh_Tram_Line_1_dir_fwd_0" departureTime="06:00:00" vehicleRefId="veh_Tram_Line_1_dir_fwd_0"/>
+    <departure id="veh_Tram_Line_1_dir_fwd_1" departureTime="07:00:00" vehicleRefId="veh_Tram_Line_1_dir_fwd_1"/>
+    <departure id="veh_Tram_Line_1_dir_fwd_2" departureTime="08:00:00" vehicleRefId="veh_Tram_Line_1_dir_fwd_2"/>
+    <departure id="veh_Tram_Line_1_dir_fwd_3" departureTime="09:00:00" vehicleRefId="veh_Tram_Line_1_dir_fwd_3"/>
+    <departure id="veh_Tram_Line_1_dir_fwd_4" departureTime="10:00:00" vehicleRefId="veh_Tram_Line_1_dir_fwd_4"/>
+   </departures>
+  </transitRoute>
+  <transitRoute id="dir_bwd">
+   <transportMode>tram</transportMode>
+   <routeProfile>
+    <stop refId="stop_74" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_52" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_30" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_8" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="74"/>
+    <link refId="52"/>
+    <link refId="30"/>
+    <link refId="8"/>
+   </route>
+   <departures>
+    <departure id="veh_Tram_Line_1_dir_bwd_0" departureTime="06:00:00" vehicleRefId="veh_Tram_Line_1_dir_bwd_0"/>
+    <departure id="veh_Tram_Line_1_dir_bwd_1" departureTime="07:00:00" vehicleRefId="veh_Tram_Line_1_dir_bwd_1"/>
+    <departure id="veh_Tram_Line_1_dir_bwd_2" departureTime="08:00:00" vehicleRefId="veh_Tram_Line_1_dir_bwd_2"/>
+    <departure id="veh_Tram_Line_1_dir_bwd_3" departureTime="09:00:00" vehicleRefId="veh_Tram_Line_1_dir_bwd_3"/>
+    <departure id="veh_Tram_Line_1_dir_bwd_4" departureTime="10:00:00" vehicleRefId="veh_Tram_Line_1_dir_bwd_4"/>
+   </departures>
+  </transitRoute>
+ </transitLine>
+ <transitLine id="Train_Line_1">
+  <transitRoute id="dir_fwd">
+   <transportMode>train</transportMode>
+   <routeProfile>
+    <stop refId="stop_19" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_41" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_63" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_85" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="19"/>
+    <link refId="41"/>
+    <link refId="63"/>
+    <link refId="85"/>
+   </route>
+   <departures>
+    <departure id="veh_Train_Line_1_dir_fwd_0" departureTime="06:00:00" vehicleRefId="veh_Train_Line_1_dir_fwd_0"/>
+    <departure id="veh_Train_Line_1_dir_fwd_1" departureTime="07:00:00" vehicleRefId="veh_Train_Line_1_dir_fwd_1"/>
+    <departure id="veh_Train_Line_1_dir_fwd_2" departureTime="08:00:00" vehicleRefId="veh_Train_Line_1_dir_fwd_2"/>
+    <departure id="veh_Train_Line_1_dir_fwd_3" departureTime="09:00:00" vehicleRefId="veh_Train_Line_1_dir_fwd_3"/>
+    <departure id="veh_Train_Line_1_dir_fwd_4" departureTime="10:00:00" vehicleRefId="veh_Train_Line_1_dir_fwd_4"/>
+   </departures>
+  </transitRoute>
+  <transitRoute id="dir_bwd">
+   <transportMode>train</transportMode>
+   <routeProfile>
+    <stop refId="stop_86" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_64" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_42" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+    <stop refId="stop_20" departureOffset="00:00:00" arrivalOffset="00:00:00" awaitDeparture="false"/>
+   </routeProfile>
+   <route>
+    <link refId="86"/>
+    <link refId="64"/>
+    <link refId="42"/>
+    <link refId="20"/>
+   </route>
+   <departures>
+    <departure id="veh_Train_Line_1_dir_bwd_0" departureTime="06:00:00" vehicleRefId="veh_Train_Line_1_dir_bwd_0"/>
+    <departure id="veh_Train_Line_1_dir_bwd_1" departureTime="07:00:00" vehicleRefId="veh_Train_Line_1_dir_bwd_1"/>
+    <departure id="veh_Train_Line_1_dir_bwd_2" departureTime="08:00:00" vehicleRefId="veh_Train_Line_1_dir_bwd_2"/>
+    <departure id="veh_Train_Line_1_dir_bwd_3" departureTime="09:00:00" vehicleRefId="veh_Train_Line_1_dir_bwd_3"/>
+    <departure id="veh_Train_Line_1_dir_bwd_4" departureTime="10:00:00" vehicleRefId="veh_Train_Line_1_dir_bwd_4"/>
+   </departures>
+  </transitRoute>
+ </transitLine>
+</transitSchedule>

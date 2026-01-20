@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v1.0.xsd">
+  <vehicleType id="bus_type"> <capacity><seats persons="50"/><standingRoom persons="0"/></capacity> <length meter="10.0"/> </vehicleType>
+  <vehicleType id="tram_type"> <capacity><seats persons="50"/><standingRoom persons="0"/></capacity> <length meter="10.0"/> </vehicleType>
+  <vehicleType id="train_type"> <capacity><seats persons="100"/><standingRoom persons="0"/></capacity> <length meter="10.0"/> </vehicleType>
+ <vehicle id="veh_Bus_Line_1_dir_fwd_0" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_fwd_1" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_fwd_2" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_fwd_3" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_fwd_4" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_bwd_0" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_bwd_1" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_bwd_2" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_bwd_3" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_1_dir_bwd_4" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_fwd_0" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_fwd_1" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_fwd_2" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_fwd_3" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_fwd_4" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_bwd_0" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_bwd_1" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_bwd_2" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_bwd_3" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_2_dir_bwd_4" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_fwd_0" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_fwd_1" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_fwd_2" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_fwd_3" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_fwd_4" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_bwd_0" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_bwd_1" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_bwd_2" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_bwd_3" type="bus_type"/>
+ <vehicle id="veh_Bus_Line_3_dir_bwd_4" type="bus_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_fwd_0" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_fwd_1" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_fwd_2" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_fwd_3" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_fwd_4" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_bwd_0" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_bwd_1" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_bwd_2" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_bwd_3" type="tram_type"/>
+ <vehicle id="veh_Tram_Line_1_dir_bwd_4" type="tram_type"/>
+ <vehicle id="veh_Train_Line_1_dir_fwd_0" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_fwd_1" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_fwd_2" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_fwd_3" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_fwd_4" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_bwd_0" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_bwd_1" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_bwd_2" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_bwd_3" type="train_type"/>
+ <vehicle id="veh_Train_Line_1_dir_bwd_4" type="train_type"/>
+</vehicleDefinitions>
