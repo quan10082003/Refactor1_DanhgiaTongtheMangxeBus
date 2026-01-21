@@ -1,3 +1,5 @@
 .venv/
 data/real/
 BusPassengerHandler.kt
+temp/
+temp.zip
